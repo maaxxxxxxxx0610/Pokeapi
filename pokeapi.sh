@@ -10,3 +10,6 @@ fi
 pokemon=$1
 
 
+url="https://pokeapi.co
+respuesta=$(curl -s "$url")
+
